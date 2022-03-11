@@ -1,0 +1,29 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/animated-gear.js": "components/animated-gear.js",
+    "components/building.js": "components/building.js",
+    "components/button-header.js": "components/button-header.js",
+    "components/button-ola.js": "components/button-ola.js",
+    "components/button-ver.js": "components/button-ver.js",
+    "components/container.js": "components/container.js",
+    "components/footer.js": "components/footer.js",
+    "components/header.js": "components/header.js",
+    "components/logo.js": "components/logo.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/animated-gear.js": "components/animated-gear.js.map",
+    "components/building.js": "components/building.js.map",
+    "components/button-header.js": "components/button-header.js.map",
+    "components/button-ola.js": "components/button-ola.js.map",
+    "components/button-ver.js": "components/button-ver.js.map",
+    "components/container.js": "components/container.js.map",
+    "components/footer.js": "components/footer.js.map",
+    "components/header.js": "components/header.js.map",
+    "components/logo.js": "components/logo.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "Container": {
+    "description": "Auto imported from components/bosons/Container.vue"
+  },
+  "AnimatedGear": {
+    "description": "Auto imported from components/atoms/AnimatedGear.vue"
+  },
+  "ButtonHeader": {
+    "description": "Auto imported from components/atoms/ButtonHeader.vue"
+  },
+  "ButtonOla": {
+    "description": "Auto imported from components/atoms/ButtonOla.vue"
+  },
+  "ButtonVer": {
+    "description": "Auto imported from components/atoms/ButtonVer.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/atoms/Logo.vue"
+  },
+  "Building": {
+    "description": "Auto imported from components/molecules/Building.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/molecules/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/molecules/Header.vue"
+  }
+}
