@@ -1,8 +1,37 @@
 [
   {
+    "name": "procedimentos-Bucomaxilo",
+    "path": "/procedimentos/Bucomaxilo",
+    "component": "/Volumes/SSD/Programming/tiago-app/pages/procedimentos/Bucomaxilo.vue",
+    "chunkName": "pages/procedimentos/Bucomaxilo",
+    "_name": "_32d5384c"
+  },
+  {
+    "name": "procedimentos-HOF",
+    "path": "/procedimentos/HOF",
+    "component": "/Volumes/SSD/Programming/tiago-app/pages/procedimentos/HOF.vue",
+    "chunkName": "pages/procedimentos/HOF",
+    "_name": "_a169d108"
+  },
+  {
+    "name": "procedimentos-HOFCirurgica",
+    "path": "/procedimentos/HOFCirurgica",
+    "component": "/Volumes/SSD/Programming/tiago-app/pages/procedimentos/HOFCirurgica.vue",
+    "chunkName": "pages/procedimentos/HOFCirurgica",
+    "_name": "_2752da3d"
+  },
+  {
+    "name": "procedimentos-Implantodontia",
+    "path": "/procedimentos/Implantodontia",
+    "component": "/Volumes/SSD/Programming/tiago-app/pages/procedimentos/Implantodontia.vue",
+    "chunkName": "pages/procedimentos/Implantodontia",
+    "_name": "_111f0cc4"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "/Volumes/SSD/tiago-app/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/Volumes/SSD/Programming/tiago-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_065c0930"
   }
 ]

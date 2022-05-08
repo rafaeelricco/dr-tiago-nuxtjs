@@ -4,16 +4,32 @@ import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } fr
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
 import NuxtError from './components/nuxt-error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
+import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '../node_modules/normalize.css/normalize.css'
 
-import '../assets/fonts/stylesheet.css'
+import '../assets/scss/vuesax-alt.scss'
 
 import '../assets/scss/base.scss'
 
-import _6f6c098b from './layouts/default.vue'
+import '../assets/css/hover-master/css/hover.css'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+import '../assets/scss/procedimentos.scss'
+
+import '../assets/scss/cards.scss'
+
+import '../assets/scss/depoimentos.scss'
+
+import '../node_modules/vuesax/dist/vuesax.css'
+
+import '../node_modules/vuesax/dist/vuesax.min.css'
+
+import '../node_modules/vuetify/dist/vuetify.css'
+
+import _6f6c098b from '../layouts/default.vue'
+import _a64e95c0 from '../layouts/procedimentos.vue'
+
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_procedimentos": sanitizeComponent(_a64e95c0) }
 
 export default {
   render (h, props) {
@@ -48,7 +64,7 @@ export default {
       }
     }, [
       loadingEl,
-
+      h(NuxtBuildIndicator),
       transitionEl
     ])
   },
@@ -188,6 +204,10 @@ export default {
     },
 
     setLayout (layout) {
+      if(layout && typeof layout !== 'string') {
+        throw new Error('[nuxt] Avoid using non-string value as layout property.')
+      }
+
       if (!layout || !layouts['_' + layout]) {
         layout = 'default'
       }

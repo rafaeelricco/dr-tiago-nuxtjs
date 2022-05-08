@@ -4,7 +4,11 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _4bbe1e3e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _32d5384c = () => interopDefault(import('../pages/procedimentos/Bucomaxilo.vue' /* webpackChunkName: "pages/procedimentos/Bucomaxilo" */))
+const _a169d108 = () => interopDefault(import('../pages/procedimentos/HOF.vue' /* webpackChunkName: "pages/procedimentos/HOF" */))
+const _2752da3d = () => interopDefault(import('../pages/procedimentos/HOFCirurgica.vue' /* webpackChunkName: "pages/procedimentos/HOFCirurgica" */))
+const _111f0cc4 = () => interopDefault(import('../pages/procedimentos/Implantodontia.vue' /* webpackChunkName: "pages/procedimentos/Implantodontia" */))
+const _065c0930 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -18,8 +22,24 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/procedimentos/Bucomaxilo",
+    component: _32d5384c,
+    name: "procedimentos-Bucomaxilo"
+  }, {
+    path: "/procedimentos/HOF",
+    component: _a169d108,
+    name: "procedimentos-HOF"
+  }, {
+    path: "/procedimentos/HOFCirurgica",
+    component: _2752da3d,
+    name: "procedimentos-HOFCirurgica"
+  }, {
+    path: "/procedimentos/Implantodontia",
+    component: _111f0cc4,
+    name: "procedimentos-Implantodontia"
+  }, {
     path: "/",
-    component: _4bbe1e3e,
+    component: _065c0930,
     name: "index"
   }],
 

@@ -3,7 +3,7 @@ import { createImage} from '~image'
 import NuxtImg from '~image/components/nuxt-img.vue'
 import NuxtPicture from '~image/components/nuxt-picture.vue'
 
-import * as staticRuntime$f6ea from '/Volumes/SSD/tiago-app/node_modules/@nuxt/image/dist/runtime/providers/static.js'
+import * as staticRuntime$f2b5 from '/Volumes/SSD/Programming/tiago-app/node_modules/@nuxt/image/dist/runtime/providers/static.js'
 
 const imageOptions = {
   "screens": {
@@ -22,7 +22,7 @@ const imageOptions = {
 }
 
 imageOptions.providers = {
-  ['static']: { provider: staticRuntime$f6ea, defaults: {} }
+  ['static']: { provider: staticRuntime$f2b5, defaults: {} }
 }
 
 Vue.component(NuxtImg.name, NuxtImg)

@@ -1,6 +1,5 @@
 $breakpoints: (
   small: (max-width:  600px),
-  smallMedium: (min-width: 734px) and (max-width: 892px),
   medium: (min-width: 600px) and (max-width: 992px),
   large: (min-width: 992px) and (max-width: 1200px),
   infinity: (min-width: 1200px)
@@ -17,4 +16,4 @@ $breakpoints: (
             + "Available breakpoints are: #{map-keys($breakpoints)}.";
     }
   }
-} 
+}

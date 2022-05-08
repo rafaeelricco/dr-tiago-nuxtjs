@@ -1,22 +1,29 @@
 @font-face {
+  font-family: Hellix Normal;
+  src: url('../fonts/Hellix-Regular.ttf'),
+    local("Hellix-Regular");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Hellix SemiBold;
+  src: url('../fonts/Hellix-SemiBold.ttf'),
+    local("Hellix-SemiBold");
+}
+
+@font-face {
   font-family: Hellix Bold;
-  src: url('../fonts/Hellix-Bold.ttf');
-  font-weight: 400;
-  font-display: block;
+  src: url('../fonts/Hellix-Bold.ttf'),
+    local("Hellix-Bold");
+  font-weight: bold;
 }
 
 @font-face {
   font-family: Hellix Medium;
-  src: url('../fonts/Hellix-Medium.ttf');
-  font-weight: 500;
+  src: url('../fonts/Hellix-Medium.ttf'),
+    local("Hellix-Medium");
+  font-weight: Medium;
 }
-
-@font-face {
-  font-family: Hellix Regular;
-  src: url('../fonts/Hellix-Regular.ttf');
-  font-weight: 700;
-  font-display: block;
-} 
 
 body {
   font-family: Hellix;
@@ -28,6 +35,7 @@ body {
 
 html {
   position: relative;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -51,6 +59,7 @@ body {
   text-decoration: none;
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
   &:focus {
     outline: none;
   }

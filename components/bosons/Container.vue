@@ -42,15 +42,15 @@ $breakpoints: (
 }
 .container {
   margin: 0 auto;
-  max-width: 1070px;
+  max-width: 1100px;
   @include screen('smaller') {
     width: 90%;
   }
   @include screen('medium') {
-    width: 85%;
+    width: 90%;
   }
   @include screen('large', 'infinity') {
-    width: 80%;
+    width: 95%;
   }
 }
 </style>

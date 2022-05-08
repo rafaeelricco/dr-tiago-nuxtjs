@@ -1,15 +1,18 @@
 <template>
-  <div>
+  <div class="index">
     <Header />
-      <Building/>
+    <Home />
+    <Sobre />
+    <Procedimentos />
+    <Depoimentos />
     <Footer />
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 
 export default Vue.extend({
-  name: 'IndexPage'
-})
+  name: "IndexPage",
+});
 </script>

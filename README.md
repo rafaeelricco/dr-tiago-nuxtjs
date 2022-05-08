@@ -13,6 +13,9 @@ $ npm run dev
 $ npm run build
 $ npm run start
 
+#hosting images
+$ https://my.sirv.com/
+
 # generate static project
 $ npm run generate
 ```
