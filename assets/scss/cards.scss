@@ -1,0 +1,33 @@
+a {
+  color: #ffff;
+}
+
+.titleCard {
+  font-family: Hellix Bold;
+}
+
+.textCard {
+  font-family: Hellix Normal;
+}
+
+p {
+  font-family: Hellix;
+}
+
+#vs-card {
+  margin: 1rem 0;
+  font-family: Hellix Normal;
+}
+
+.span {
+  font-family: Hellix Normal;
+}
+
+#vs-button {
+  font-family: Hellix Normal;
+  margin: 1rem 0;
+  padding: 0.1rem;
+  background: linear-gradient(90deg,
+      rgb(59, 141, 159) 0%,
+      rgba(82, 173, 193, 1) 100%);
+}

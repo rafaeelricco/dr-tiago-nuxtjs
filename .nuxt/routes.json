@@ -1,0 +1,37 @@
+[
+  {
+    "name": "procedimentos-Bucomaxilo",
+    "path": "/procedimentos/Bucomaxilo",
+    "component": "/Volumes/SSD/codes/production/dr-tiago-nuxtjs/pages/procedimentos/Bucomaxilo.vue",
+    "chunkName": "pages/procedimentos/Bucomaxilo",
+    "_name": "_2c0bb0a1"
+  },
+  {
+    "name": "procedimentos-HOF",
+    "path": "/procedimentos/HOF",
+    "component": "/Volumes/SSD/codes/production/dr-tiago-nuxtjs/pages/procedimentos/HOF.vue",
+    "chunkName": "pages/procedimentos/HOF",
+    "_name": "_50348c95"
+  },
+  {
+    "name": "procedimentos-HOFCirurgica",
+    "path": "/procedimentos/HOFCirurgica",
+    "component": "/Volumes/SSD/codes/production/dr-tiago-nuxtjs/pages/procedimentos/HOFCirurgica.vue",
+    "chunkName": "pages/procedimentos/HOFCirurgica",
+    "_name": "_2f2ddd78"
+  },
+  {
+    "name": "procedimentos-Implantodontia",
+    "path": "/procedimentos/Implantodontia",
+    "component": "/Volumes/SSD/codes/production/dr-tiago-nuxtjs/pages/procedimentos/Implantodontia.vue",
+    "chunkName": "pages/procedimentos/Implantodontia",
+    "_name": "_34f8c3ea"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Volumes/SSD/codes/production/dr-tiago-nuxtjs/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_7190e3fe"
+  }
+]

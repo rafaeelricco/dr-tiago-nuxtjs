@@ -1,0 +1,31 @@
+$border: 12px;
+
+.bucomaxilofacial .implantodontia {
+  display: grid;
+  grid-gap: 0.08rem;
+}
+
+.v-expansion-panels {
+  border-radius: $border;
+  box-shadow: none;
+}
+.v-expansion-panel {
+  border-radius: $border;
+}
+.v-expansion-panel-header {
+  font-size: 0.95rem;
+  border-radius: $border;
+  font-family: Hellix Normal;
+  text-align: left;
+}
+
+.v-expansion-panel-content {
+  border-radius: $border;
+  font-family: Hellix Normal;
+  line-height: 1.3rem;
+}
+
+.v-expansion-panels:not(.v-expansion-panels--accordion):not(.v-expansion-panels--tile)
+  > .v-expansion-panel--active {
+  border-radius: $border;
+}

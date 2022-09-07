@@ -1,0 +1,104 @@
+{
+  "Container": {
+    "description": "Auto imported from components/bosons/Container.vue"
+  },
+  "Depoimentos": {
+    "description": "Auto imported from components/organisms/Depoimentos.vue"
+  },
+  "Home": {
+    "description": "Auto imported from components/organisms/Home.vue"
+  },
+  "Procedimentos": {
+    "description": "Auto imported from components/organisms/Procedimentos.vue"
+  },
+  "Banners": {
+    "description": "Auto imported from components/molecules/Banners.vue"
+  },
+  "Bucomaxilofacial": {
+    "description": "Auto imported from components/molecules/Bucomaxilofacial.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/molecules/Footer.vue"
+  },
+  "HOF": {
+    "description": "Auto imported from components/molecules/HOF.vue"
+  },
+  "HOFC": {
+    "description": "Auto imported from components/molecules/HOFC.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/molecules/Header.vue"
+  },
+  "Implantodontia": {
+    "description": "Auto imported from components/molecules/Implantodontia.vue"
+  },
+  "Sobre": {
+    "description": "Auto imported from components/molecules/Sobre.vue"
+  },
+  "TitleHome": {
+    "description": "Auto imported from components/molecules/TitleHome.vue"
+  },
+  "Bucofacial": {
+    "description": "Auto imported from components/atoms/Bucofacial.vue"
+  },
+  "ButtonExplorar": {
+    "description": "Auto imported from components/atoms/ButtonExplorar.vue"
+  },
+  "ButtonHeader": {
+    "description": "Auto imported from components/atoms/ButtonHeader.vue"
+  },
+  "ButtonOla": {
+    "description": "Auto imported from components/atoms/ButtonOla.vue"
+  },
+  "ButtonVer": {
+    "description": "Auto imported from components/atoms/ButtonVer.vue"
+  },
+  "ChipsGroup": {
+    "description": "Auto imported from components/atoms/ChipsGroup.vue"
+  },
+  "Facebook": {
+    "description": "Auto imported from components/atoms/Facebook.vue"
+  },
+  "GhostButton": {
+    "description": "Auto imported from components/atoms/GhostButton.vue"
+  },
+  "HofCard": {
+    "description": "Auto imported from components/atoms/HofCard.vue"
+  },
+  "HofCirurgicaCard": {
+    "description": "Auto imported from components/atoms/HofCirurgicaCard.vue"
+  },
+  "ImplantodontiaCard": {
+    "description": "Auto imported from components/atoms/ImplantodontiaCard.vue"
+  },
+  "Instagram": {
+    "description": "Auto imported from components/atoms/Instagram.vue"
+  },
+  "Linkdl": {
+    "description": "Auto imported from components/atoms/Linkdl.vue"
+  },
+  "LogoTiago": {
+    "description": "Auto imported from components/atoms/LogoTiago.vue"
+  },
+  "Tiago": {
+    "description": "Auto imported from components/atoms/Tiago.vue"
+  },
+  "WhatsApp": {
+    "description": "Auto imported from components/atoms/WhatsApp.vue"
+  },
+  "AnaPaula": {
+    "description": "Auto imported from components/molecules/Depoimentos/AnaPaula.vue"
+  },
+  "Avatar": {
+    "description": "Auto imported from components/molecules/Depoimentos/Avatar.vue"
+  },
+  "JuliaCardoso": {
+    "description": "Auto imported from components/molecules/Depoimentos/JuliaCardoso.vue"
+  },
+  "LauraAllram": {
+    "description": "Auto imported from components/molecules/Depoimentos/LauraAllram.vue"
+  },
+  "StaelTorres": {
+    "description": "Auto imported from components/molecules/Depoimentos/StaelTorres.vue"
+  }
+}

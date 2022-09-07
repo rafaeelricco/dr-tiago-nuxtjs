@@ -1,0 +1,79 @@
+@font-face {
+  font-family: Hellix Normal;
+  src: url("../fonts/Hellix-Regular.ttf"), local("Hellix-Regular");
+  font-weight: Normal;
+}
+
+@font-face {
+  font-family: Hellix SemiBold;
+  src: url("../fonts/Hellix-SemiBold.ttf"), local("Hellix-SemiBold");
+}
+
+@font-face {
+  font-family: Hellix Bold;
+  src: url("../fonts/Hellix-Bold.ttf"), local("Hellix-Bold");
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: Hellix Medium;
+  src: url("../fonts/Hellix-Medium.ttf"), local("Hellix-Medium");
+  font-weight: Medium;
+}
+
+body {
+  font-family: Hellix;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 1rem;
+  font-size: 16px;
+}
+
+html {
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+#__nuxt,
+#__layout {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.internal-links {
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 0.618rem;
+  justify-items: start;
+  justify-content: start;
+  @include screen("small") {
+    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+    grid-auto-flow: dense;
+  }
+  @include screen("medium") {
+    grid-auto-flow: dense;
+    grid-template-columns: min-content min-content;
+  }
+}
