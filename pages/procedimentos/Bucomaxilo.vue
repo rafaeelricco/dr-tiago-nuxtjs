@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Header />
     <Container>
+      <Header />
       <div class="procedimentoPage">
         <div class="cardVideo">
           <video
@@ -34,6 +34,7 @@
       </div>
       <ChipsGroup />
     </Container>
+    <Footer />
   </div>
 </template>
 
