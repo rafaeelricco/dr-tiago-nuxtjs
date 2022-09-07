@@ -11,33 +11,6 @@
   "Procedimentos": {
     "description": "Auto imported from components/organisms/Procedimentos.vue"
   },
-  "Banners": {
-    "description": "Auto imported from components/molecules/Banners.vue"
-  },
-  "Bucomaxilofacial": {
-    "description": "Auto imported from components/molecules/Bucomaxilofacial.vue"
-  },
-  "Footer": {
-    "description": "Auto imported from components/molecules/Footer.vue"
-  },
-  "HOF": {
-    "description": "Auto imported from components/molecules/HOF.vue"
-  },
-  "HOFC": {
-    "description": "Auto imported from components/molecules/HOFC.vue"
-  },
-  "Header": {
-    "description": "Auto imported from components/molecules/Header.vue"
-  },
-  "Implantodontia": {
-    "description": "Auto imported from components/molecules/Implantodontia.vue"
-  },
-  "Sobre": {
-    "description": "Auto imported from components/molecules/Sobre.vue"
-  },
-  "TitleHome": {
-    "description": "Auto imported from components/molecules/TitleHome.vue"
-  },
   "Bucofacial": {
     "description": "Auto imported from components/atoms/Bucofacial.vue"
   },
@@ -85,6 +58,33 @@
   },
   "WhatsApp": {
     "description": "Auto imported from components/atoms/WhatsApp.vue"
+  },
+  "Banners": {
+    "description": "Auto imported from components/molecules/Banners.vue"
+  },
+  "Bucomaxilofacial": {
+    "description": "Auto imported from components/molecules/Bucomaxilofacial.vue"
+  },
+  "Footer": {
+    "description": "Auto imported from components/molecules/Footer.vue"
+  },
+  "HOF": {
+    "description": "Auto imported from components/molecules/HOF.vue"
+  },
+  "HOFC": {
+    "description": "Auto imported from components/molecules/HOFC.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/molecules/Header.vue"
+  },
+  "Implantodontia": {
+    "description": "Auto imported from components/molecules/Implantodontia.vue"
+  },
+  "Sobre": {
+    "description": "Auto imported from components/molecules/Sobre.vue"
+  },
+  "TitleHome": {
+    "description": "Auto imported from components/molecules/TitleHome.vue"
   },
   "AnaPaula": {
     "description": "Auto imported from components/molecules/Depoimentos/AnaPaula.vue"
