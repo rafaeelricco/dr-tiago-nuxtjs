@@ -1,4 +1,16 @@
 {
+  "Container": {
+    "description": "Auto imported from components/bosons/Container.vue"
+  },
+  "Depoimentos": {
+    "description": "Auto imported from components/organisms/Depoimentos.vue"
+  },
+  "Home": {
+    "description": "Auto imported from components/organisms/Home.vue"
+  },
+  "Procedimentos": {
+    "description": "Auto imported from components/organisms/Procedimentos.vue"
+  },
   "Bucofacial": {
     "description": "Auto imported from components/atoms/Bucofacial.vue"
   },
@@ -46,18 +58,6 @@
   },
   "WhatsApp": {
     "description": "Auto imported from components/atoms/WhatsApp.vue"
-  },
-  "Container": {
-    "description": "Auto imported from components/bosons/Container.vue"
-  },
-  "Depoimentos": {
-    "description": "Auto imported from components/organisms/Depoimentos.vue"
-  },
-  "Home": {
-    "description": "Auto imported from components/organisms/Home.vue"
-  },
-  "Procedimentos": {
-    "description": "Auto imported from components/organisms/Procedimentos.vue"
   },
   "Banners": {
     "description": "Auto imported from components/molecules/Banners.vue"

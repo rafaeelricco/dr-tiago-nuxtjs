@@ -6,6 +6,10 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<Container>` | `<container>` (components/bosons/Container.vue)
+- `<Depoimentos>` | `<depoimentos>` (components/organisms/Depoimentos.vue)
+- `<Home>` | `<home>` (components/organisms/Home.vue)
+- `<Procedimentos>` | `<procedimentos>` (components/organisms/Procedimentos.vue)
 - `<Bucofacial>` | `<bucofacial>` (components/atoms/Bucofacial.vue)
 - `<ButtonExplorar>` | `<button-explorar>` (components/atoms/ButtonExplorar.vue)
 - `<ButtonHeader>` | `<button-header>` (components/atoms/ButtonHeader.vue)
@@ -22,10 +26,6 @@ You can directly use them in pages and other components without the need to impo
 - `<LogoTiago>` | `<logo-tiago>` (components/atoms/LogoTiago.vue)
 - `<Tiago>` | `<tiago>` (components/atoms/Tiago.vue)
 - `<WhatsApp>` | `<whats-app>` (components/atoms/WhatsApp.vue)
-- `<Container>` | `<container>` (components/bosons/Container.vue)
-- `<Depoimentos>` | `<depoimentos>` (components/organisms/Depoimentos.vue)
-- `<Home>` | `<home>` (components/organisms/Home.vue)
-- `<Procedimentos>` | `<procedimentos>` (components/organisms/Procedimentos.vue)
 - `<Banners>` | `<banners>` (components/molecules/Banners.vue)
 - `<Bucomaxilofacial>` | `<bucomaxilofacial>` (components/molecules/Bucomaxilofacial.vue)
 - `<Footer>` | `<footer>` (components/molecules/Footer.vue)

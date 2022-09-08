@@ -3,24 +3,16 @@
     <LogoTiago />
     <div class="Ancoras">
       <NuxtLink class="inicio hvr-float" to="/">
-        <vs-button transparent :active="active == 0" @click="active = 1">
-          Início
-        </vs-button></NuxtLink
+        <vs-button transparent> Início </vs-button></NuxtLink
       >
       <NuxtLink class="sobre hvr-float" to="/#sobre">
-        <vs-button transparent :active="active == 0" @click="active = 1">
-          Sobre
-        </vs-button>
+        <vs-button transparent> Sobre </vs-button>
       </NuxtLink>
       <NuxtLink class="procedimentos hvr-float" to="/#procedimentos">
-        <vs-button transparent :active="active == 0" @click="active = 1">
-          Procedimentos
-        </vs-button>
+        <vs-button transparent> Procedimentos </vs-button>
       </NuxtLink>
       <NuxtLink class="depoimentos hvr-float" to="/#depoimentos">
-        <vs-button transparent :active="active == 0" @click="active = 1">
-          Depoimentos
-        </vs-button>
+        <vs-button transparent> Depoimentos </vs-button>
       </NuxtLink>
     </div>
     <ButtonHeader />
